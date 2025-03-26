@@ -1,6 +1,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { cn } from '@/lib/utils';
+import markInnie from '@/images/MarkSInnie.jpg';
 
 const AboutSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -63,7 +64,7 @@ const AboutSection = () => {
             isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-20"
           )}>
             <div className="relative aspect-video overflow-hidden rounded-sm border border-lumon-blue/30">
-              <div className="absolute inset-0 bg-[url('./src/images/MarkSInnie.jpg')] bg-cover bg-center opacity-60"></div>
+              <div className="absolute inset-0 bg-cover bg-center opacity-60"  style={{ backgroundImage: `url(${markInnie})` }}></div>
               
               {/* Duality visualization */}
               <div className="absolute inset-0 flex">
