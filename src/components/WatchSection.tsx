@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils';
 const streamingServices = [
   {
     name: "Apple TV+",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Apple_TV_Plus_Logo.svg/1200px-Apple_TV_Plus_Logo.svg.png",
+    logo: "https://logodownload.org/wp-content/uploads/2023/05/apple-tv-logo-2048x2048.png",
     url: "https://tv.apple.com/",
     description: "Assista a Severance (Ruptura) na plataforma original, com todos os episódios disponíveis para assinantes."
   },
