@@ -7,37 +7,42 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
+import EscritorioLumon from '@/images/EscritorioLumon.jpg';
+import CorredorLumon from '@/images/CorredorLumon.jpg';
+import CozinhaLumon from '@/images/CozinhaLumon.jpg';
+import MdrLumon from '@/images/MdrLumon.jpg';
+import ProcedimentoLumon from '@/images/ProcedimentoLumon.jpg';
 
 // Mock gallery data
 const galleryItems = [
   {
     id: 1,
     type: 'image',
-    url: './src/images/EscritorioLumon.jpg',
+    url: EscritorioLumon,
     alt: 'Ecritório da Lumon',
   },
   {
     id: 2,
     type: 'image',
-    url: './src/images/CorredorLumon.jpg',
+    url: CorredorLumon,
     alt: 'Corredor da Lumon',
   },
   {
     id: 3,
     type: 'image',
-    url: './src/images/CozinhaLumon.jpg',
+    url: CozinhaLumon,
     alt: 'Cozinha do departamento MDR',
   },
   {
     id: 4,
     type: 'image',
-    url: './src/images/MdrLumon.jpg',
+    url: MdrLumon,
     alt: 'Sala do departamento MDR',
   },
   {
     id: 5,
     type: 'image',
-    url: './src/images/ProcedimentoLumon.jpg',
+    url: ProcedimentoLumon,
     alt: 'Procedimento de Severance',
   }
 ];
