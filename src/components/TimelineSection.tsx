@@ -6,71 +6,71 @@ import { cn } from '@/lib/utils';
 const timelineEvents = [
   {
     id: 1,
-    title: "Episódio 1 - Boas-vindas, Sr. Scout",
-    description: "Mark Scout, um funcionário da Lumon Industries, enfrenta o primeiro dia de sua nova colega, Helly, enquanto tenta lidar com a perda de sua esposa.",
+    title: "Episódio 1 - Boas notícias sobre o inferno",
+    description: "Mark é promovido e vai liderar uma equipe de empregados cujas memórias foram cirurgicamente divididas entre o trabalho e a vida pessoal.",
     date: "Temporada 1",
     important: true
   },
   {
     id: 2,
-    title: "Episódio 2 - Metade dos Biscoitos",
-    description: "A equipe MDR (Macro Data Refinement) se prepara para uma visita do departamento O&D, e Helly tenta encontrar uma maneira de escapar.",
+    title: "Episódio 2 - Meia volta",
+    description: "A equipe treina a nova contratada, Helly, no refinamento de macrodados. Mark tira um dia de folga para se encontrar com um ex-colega de trabalho misterioso.",
     date: "Temporada 1",
     important: false
   },
   {
     id: 3,
-    title: "Episódio 3 - No Limite",
-    description: "Helly tenta um método extremo para escapar do trabalho. Mark tem um jantar com a irmã. Irving e Burt desenvolvem uma conexão.",
+    title: "Episódio 3 - Na perpetuidade",
+    description: "Mark leva a equipe em um passeio pela empresa, mas Helly continua a se rebelar.",
     date: "Temporada 1",
     important: true
   },
   {
     id: 4,
-    title: "Episódio 4 - A Sonda",
-    description: "Mark, Irving e Dylan embarcam em uma missão não autorizada ao departamento vizinho, enquanto Helly recebe uma mensagem chocante.",
+    title: "Episódio 4 - O você que você é",
+    description: "Irving faz uma descoberta intrigante no trabalho. Helly tenta de todas as formas se encontrar com sua Externa. Mark lida com a perda de sua esposa.",
     date: "Temporada 1",
     important: false
   },
   {
     id: 5,
-    title: "Episódio 5 - A Experiência de Ganz",
-    description: "Mark e seu vizinho discutem o misterioso emprego na Lumon, enquanto a equipe MDR é submetida a uma avaliação de bem-estar.",
+    title: "Episódio 5 - A cruel barbárie da Óptica e Design",
+    description: "Irving e Dylan confrontam Burt. A equipe se aventura pelos corredores.",
     date: "Temporada 1",
     important: true
   },
   {
     id: 6,
-    title: "Episódio 6 - Esconder e Procurar",
-    description: 'A equipe MDR se diverte em uma sessão de "esconder e procurar", e Mark descobre algo perturbador em sua vida exterior.',
+    title: "Episódio 6 - Esconde-esconde",
+    description: 'A equipe irrita Cobel ao formar uma aliança.',
     date: "Temporada 1",
     important: false
   },
   {
     id: 7,
-    title: "Episódio 7 - Humores Defectivos",
-    description: "Dylan aprende um segredo chocante sobre o mundo exterior, e Irving descobre algo inquietante sobre Burt.",
+    title: "Episódio 7 - Jazz desafiador",
+    description: "Mark e a equipe encontram novas medidas de segurança da Cobel.",
     date: "Temporada 1",
     important: true
   },
   {
     id: 8,
-    title: "Episódio 8 - O que está para acontecer",
-    description: 'Helly faz uma descoberta impactante sobre sua identidade exterior, enquanto os "innies" planejam ativar o "Código de Contingência".',
+    title: "Episódio 8 - O que tem pra jantar?",
+    description: 'A equipe prepara um plano. Mark vai à festa de Devon e Ricken.',
     date: "Temporada 1",
     important: false
   },
   {
     id: 9,
-    title: "Episódio 9 - O Loop",
-    description: 'No final da temporada, os "innies" despertam no mundo exterior pela primeira vez, revelando verdades chocantes sobre suas vidas.',
+    title: "Episódio 9 - O nós que nós somos",
+    description: 'Final de temporada. A equipe descobre coisas perturbadoras.',
     date: "Temporada 1",
     important: true
   },
   {
     id: 10,
-    title: "Episódio 1 - Temporada 2",
-    description: "A segunda temporada começa com as consequências do despertar dos 'innies' no mundo exterior.",
+    title: "Episódio 1 - Olá, senhora Cobel",
+    description: "Mark retorna ao trabalho sob circunstâncias diferentes. Segredos do mundo externo vêm à tona.",
     date: "Temporada 2",
     important: true
   }
