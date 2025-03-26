@@ -1,101 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=IBM+Plex+Mono:wght@300;400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 220 33% 98%;
+    --foreground: 222 47% 11%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 222 47% 11%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 222 47% 11%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 215 50% 23%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary-foreground: 222 47% 11.2%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
     --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent-foreground: 222 47% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 222 84% 4.9%;
 
     --radius: 0.5rem;
-
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
-  .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
-  }
-}
-
-@layer base {
   * {
     @apply border-border;
+    scroll-behavior: smooth;
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/10 backdrop-blur-md border border-white/20 rounded-lg;
+  }
+  
+  .lumon-text-effect {
+    @apply font-mono tracking-wider uppercase;
+  }
+  
+  .glitch-effect {
+    @apply relative overflow-hidden;
+  }
+  
+  .glitch-effect::before,
+  .glitch-effect::after {
+    @apply content-[''] absolute top-0 left-0 w-full h-full opacity-50;
+    clip: rect(0, 0, 0, 0);
+  }
+  
+  .glitch-effect::before {
+    @apply text-lumon-accent left-[2px];
+    animation: glitch-anim 2s infinite linear alternate-reverse;
+  }
+  
+  .glitch-effect::after {
+    @apply text-lumon-blue left-[-2px];
+    animation: glitch-anim 3s infinite linear alternate-reverse;
+  }
+  
+  .innie-outie-card {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .innie-outie-card:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .innie-side,
+  .outie-side {
+    @apply absolute w-full h-full backface-hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .outie-side {
+    transform: rotateY(180deg);
+  }
+  
+  .page-transition-container {
+    @apply fixed inset-0 bg-lumon-dark z-50 flex items-center justify-center;
+    clip-path: circle(0% at center);
+    transition: clip-path 0.7s ease-in-out;
+  }
+  
+  .page-transition-container.active {
+    clip-path: circle(150% at center);
+  }
+  
+  .severance-button {
+    @apply relative overflow-hidden px-8 py-3 rounded-none border border-lumon-blue bg-transparent text-foreground font-mono uppercase tracking-widest transition-all duration-300;
+  }
+  
+  .severance-button::before {
+    @apply content-[''] absolute inset-0 bg-lumon-blue/10 transform scale-x-0 origin-left transition-transform duration-300;
+  }
+  
+  .severance-button:hover::before {
+    @apply scale-x-100;
+  }
+  
+  .severance-button:active {
+    @apply bg-lumon-blue/20;
+  }
+}
+
+@keyframes glitch-anim {
+  0% {
+    clip: rect(44px, 9999px, 56px, 0);
+  }
+  5% {
+    clip: rect(20px, 9999px, 80px, 0);
+  }
+  10% {
+    clip: rect(84px, 9999px, 40px, 0);
+  }
+  15% {
+    clip: rect(32px, 9999px, 26px, 0);
+  }
+  20% {
+    clip: rect(12px, 9999px, 62px, 0);
+  }
+  25% {
+    clip: rect(6px, 9999px, 46px, 0);
+  }
+  30% {
+    clip: rect(48px, 9999px, 82px, 0);
+  }
+  35% {
+    clip: rect(14px, 9999px, 56px, 0);
+  }
+  40% {
+    clip: rect(26px, 9999px, 32px, 0);
+  }
+  45% {
+    clip: rect(60px, 9999px, 92px, 0);
+  }
+  50% {
+    clip: rect(34px, 9999px, 64px, 0);
+  }
+  55% {
+    clip: rect(76px, 9999px, 24px, 0);
+  }
+  60% {
+    clip: rect(66px, 9999px, 86px, 0);
+  }
+  65% {
+    clip: rect(50px, 9999px, 42px, 0);
+  }
+  70% {
+    clip: rect(8px, 9999px, 70px, 0);
+  }
+  75% {
+    clip: rect(52px, 9999px, 10px, 0);
+  }
+  80% {
+    clip: rect(38px, 9999px, 28px, 0);
+  }
+  85% {
+    clip: rect(94px, 9999px, 22px, 0);
+  }
+  90% {
+    clip: rect(18px, 9999px, 76px, 0);
+  }
+  95% {
+    clip: rect(2px, 9999px, 48px, 0);
+  }
+  100% {
+    clip: rect(30px, 9999px, 16px, 0);
   }
 }
