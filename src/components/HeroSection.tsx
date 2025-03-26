@@ -28,7 +28,7 @@ const HeroSection = () => {
           <div className="absolute inset-0 bg-lumon-dark flex items-center justify-center">
             <div className="relative w-full h-full">
               {/* This would be where you'd use an actual video */}
-              <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80')] bg-cover bg-center opacity-20"></div>
+              <div className="absolute inset-0 bg-[url(./images/Severance.jpg)] bg-cover bg-center opacity-20"></div>
               
               {/* Elevator effect overlay */}
               <div className="absolute inset-0 bg-lumon-dark/30 animate-pulse-slow"></div>

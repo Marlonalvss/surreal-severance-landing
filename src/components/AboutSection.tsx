@@ -63,7 +63,7 @@ const AboutSection = () => {
             isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-20"
           )}>
             <div className="relative aspect-video overflow-hidden rounded-sm border border-lumon-blue/30">
-              <div className="absolute inset-0 bg-[url('https://cinepop.com.br/wp-content/uploads/2024/12/imagem_2024-12-08_171524186.jpg')] bg-cover bg-center opacity-60"></div>
+              <div className="absolute inset-0 bg-[url('./src/images/MarkSInnie.jpg')] bg-cover bg-center opacity-60"></div>
               
               {/* Duality visualization */}
               <div className="absolute inset-0 flex">

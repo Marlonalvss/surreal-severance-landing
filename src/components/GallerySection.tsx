@@ -13,31 +13,31 @@ const galleryItems = [
   {
     id: 1,
     type: 'image',
-    url: 'https://external-preview.redd.it/the-lumon-building-is-way-bigger-than-it-looks-spoilers-v0-hdcpUEsuVCj2SFVaJR_lQAl3XsA4pVQIGe8etVqhReo.jpg?auto=webp&s=2792d2bf0093e9a1f4538a8e4187e05b1f157041',
+    url: './src/images/EscritorioLumon.jpg',
     alt: 'Ecritório da Lumon',
   },
   {
     id: 2,
     type: 'image',
-    url: 'https://metropolismag.com/wp-content/uploads/2022/03/Severance_101_01862F-1024x682.jpg',
+    url: './src/images/CorredorLumon.jpg',
     alt: 'Corredor da Lumon',
   },
   {
     id: 3,
     type: 'image',
-    url: 'https://hips.hearstapps.com/hmg-prod/images/severance-kitchen-67d43f8b517e2.jpg',
+    url: './src/images/CozinhaLumon.jpg',
     alt: 'Cozinha do departamento MDR',
   },
   {
     id: 4,
     type: 'image',
-    url: 'https://pyxis.nymag.com/v1/imgs/1ca/cb3/fb01abccb0f8d2f0e2e3a03dbb8d75ed08-Severance-102-00347F.2x.rhorizontal.w700.jpg',
+    url: './src/images/MdrLumon.jpg',
     alt: 'Sala do departamento MDR',
   },
   {
     id: 5,
     type: 'image',
-    url: 'https://static0.srcdn.com/wordpress/wp-content/uploads/2024/06/helly-s-severance-surgery.jpg',
+    url: './src/images/ProcedimentoLumon.jpg',
     alt: 'Procedimento de Severance',
   }
 ];
