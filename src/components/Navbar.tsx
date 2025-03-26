@@ -42,6 +42,7 @@ const Navbar = () => {
               <li key={item}>
                 <a 
                   href={`#${item.toLowerCase()}`}
+                  rel="noopener noreferrer"
                   className="text-lumon-light/80 hover:text-lumon-light text-sm font-mono tracking-wide transition-colors duration-200"
                 >
                   {item}

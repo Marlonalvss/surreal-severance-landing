@@ -116,8 +116,9 @@ const WatchSection = () => {
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a 
-              rel="noopener noreferrer"
+              
               href="https://youtu.be/_UXKlYvLGJY?si=SYybxeUvfCdVVbQH" 
+              rel="noopener noreferrer"
               className="severance-button group"
             >
               Assista ao Trailer

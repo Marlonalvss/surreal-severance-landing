@@ -22,30 +22,35 @@ const Footer = () => {
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-4">
             <a 
               href="#sobre" 
+              rel="noopener noreferrer"
               className="text-lumon-light/60 hover:text-lumon-light text-sm font-mono tracking-wide transition-colors duration-200"
             >
               Sobre
             </a>
             <a 
               href="#galeria" 
+              rel="noopener noreferrer"
               className="text-lumon-light/60 hover:text-lumon-light text-sm font-mono tracking-wide transition-colors duration-200"
             >
               Galeria
             </a>
             <a 
               href="#personagens" 
+              rel="noopener noreferrer"
               className="text-lumon-light/60 hover:text-lumon-light text-sm font-mono tracking-wide transition-colors duration-200"
             >
               Personagens
             </a>
             <a 
               href="#cronologia" 
+              rel="noopener noreferrer"
               className="text-lumon-light/60 hover:text-lumon-light text-sm font-mono tracking-wide transition-colors duration-200"
             >
               Cronologia
             </a>
             <a 
               href="#assistir" 
+              rel="noopener noreferrer"
               className="text-lumon-light/60 hover:text-lumon-light text-sm font-mono tracking-wide transition-colors duration-200"
             >
               Assistir
@@ -62,7 +67,9 @@ const Footer = () => {
           
           <div className="flex space-x-6">
             <a 
+              
               href="#" 
+              rel="noopener noreferrer"
               className="text-lumon-light/40 hover:text-lumon-light transition-colors duration-200"
             >
               <span className="sr-only">Twitter</span>
@@ -71,7 +78,9 @@ const Footer = () => {
               </svg>
             </a>
             <a 
+              
               href="#" 
+              rel="noopener noreferrer"
               className="text-lumon-light/40 hover:text-lumon-light transition-colors duration-200"
             >
               <span className="sr-only">Instagram</span>
@@ -82,7 +91,9 @@ const Footer = () => {
               </svg>
             </a>
             <a 
+              
               href="#" 
+              rel="noopener noreferrer"
               className="text-lumon-light/40 hover:text-lumon-light transition-colors duration-200"
             >
               <span className="sr-only">Facebook</span>
