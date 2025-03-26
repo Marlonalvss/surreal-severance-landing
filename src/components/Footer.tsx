@@ -57,7 +57,7 @@ const Footer = () => {
         
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-lumon-light/40 text-xs mb-4 md:mb-0">
-            © 2023 Lumon Industries. Todos os direitos reservados.
+            © 2025 Lumon Industries. Criado por Marlon Alves para Estudos.
           </p>
           
           <div className="flex space-x-6">
@@ -93,7 +93,7 @@ const Footer = () => {
           </div>
           
           <div className="mt-4 md:mt-0 text-xs text-lumon-light/40">
-            <span>Aviso: Esta página é um tributo criado por fãs.</span>
+            <span>Aviso: Esta página é um tributo criado por Marlon Alves.</span>
           </div>
         </div>
       </div>

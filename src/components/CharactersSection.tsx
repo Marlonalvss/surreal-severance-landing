@@ -10,8 +10,8 @@ const characters = [
     actor: 'Adam Scott',
     innieSummary: 'Líder do departamento MDR que segue diligentemente as regras da Lumon, sem questionar seu propósito.',
     outieSummary: 'Viúvo que escolheu o procedimento para escapar da dor do luto pela perda de sua esposa.',
-    innieImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-    outieImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+    innieImage: 'https://cinepop.com.br/wp-content/uploads/2024/12/imagem_2024-12-08_171524186.jpg',
+    outieImage: 'https://macmagazine.com.br/wp-content/uploads/2022/04/ATV_Severance_Photos_010501-800x533.jpg',
   },
   {
     id: 2,
@@ -19,8 +19,8 @@ const characters = [
     actor: 'Britt Lower',
     innieSummary: 'Nova funcionária do MDR que se rebela contra o sistema, determinada a escapar.',
     outieSummary: 'Helena Eagan, filha do CEO da Lumon, submeteu-se ao procedimento voluntariamente para promoção.',
-    innieImage: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-    outieImage: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+    innieImage: 'https://forbes.com.br/wp-content/uploads/2025/03/forbes-britt-lower-severance-ruptura-1000x1000.jpg',
+    outieImage: 'https://hips.hearstapps.com/hmg-prod/images/severance-season-2-episode-2-6793ff09130ae.png?crop=0.577xw:1.00xh;0.151xw,0&resize=640:*',
   },
   {
     id: 3,
@@ -28,8 +28,8 @@ const characters = [
     actor: 'Zach Cherry',
     innieSummary: 'Colega sarcástico de Mark, fascinado por recompensas corporativas e perks da empresa.',
     outieSummary: 'Pai dedicado que descobre sua realidade exterior e utiliza o conhecimento para ajudar os colegas.',
-    innieImage: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-    outieImage: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+    innieImage: 'https://static1.colliderimages.com/wordpress/wp-content/uploads/2025/01/severance-season-2-episode-1-zach-cherry.jpg',
+    outieImage: 'https://legendary-digital-network-assets.s3.amazonaws.com/wp-content/uploads/2025/01/31075307/Severance-Dylan-1.jpg',
   },
   {
     id: 4,
@@ -37,8 +37,8 @@ const characters = [
     actor: 'John Turturro',
     innieSummary: 'Veterano da Lumon, fanático pelo código de conduta que começa a ter visões inquietantes.',
     outieSummary: 'Ex-militar, pesquisa obsessivamente a Lumon e coleciona evidências sobre a empresa.',
-    innieImage: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-    outieImage: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+    innieImage: 'https://publish.purewow.net/wp-content/uploads/sites/2/2024/11/severance-cast-john.jpg?fit=680%2C492',
+    outieImage: 'https://static1.srcdn.com/wordpress/wp-content/uploads/2025/03/irving-severance-season-2.jpg',
   },
 ];
 

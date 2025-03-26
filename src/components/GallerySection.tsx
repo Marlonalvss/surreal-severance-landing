@@ -13,42 +13,32 @@ const galleryItems = [
   {
     id: 1,
     type: 'image',
-    url: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80',
+    url: 'https://external-preview.redd.it/the-lumon-building-is-way-bigger-than-it-looks-spoilers-v0-hdcpUEsuVCj2SFVaJR_lQAl3XsA4pVQIGe8etVqhReo.jpg?auto=webp&s=2792d2bf0093e9a1f4538a8e4187e05b1f157041',
     alt: 'Cena de escritório da Lumon',
-    season: 1,
-    episode: 2
   },
   {
     id: 2,
     type: 'image',
-    url: 'https://images.unsplash.com/photo-1497215842964-222b430dc094?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+    url: 'https://metropolismag.com/wp-content/uploads/2022/03/Severance_101_01862F-1024x682.jpg',
     alt: 'Corredor da Lumon',
-    season: 1,
-    episode: 5
   },
   {
     id: 3,
     type: 'image',
-    url: 'https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80',
+    url: 'https://hips.hearstapps.com/hmg-prod/images/severance-kitchen-67d43f8b517e2.jpg',
     alt: 'Sala de descanso',
-    season: 1,
-    episode: 8
   },
   {
     id: 4,
     type: 'image',
-    url: 'https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+    url: 'https://pyxis.nymag.com/v1/imgs/1ca/cb3/fb01abccb0f8d2f0e2e3a03dbb8d75ed08-Severance-102-00347F.2x.rhorizontal.w700.jpg',
     alt: 'Sala do departamento MDR',
-    season: 1,
-    episode: 1
   },
   {
     id: 5,
     type: 'image',
-    url: 'https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80',
+    url: 'https://static0.srcdn.com/wordpress/wp-content/uploads/2024/06/helly-s-severance-surgery.jpg',
     alt: 'Procedimento de Severance',
-    season: 2,
-    episode: 1
   }
 ];
 

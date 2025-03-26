@@ -110,7 +110,7 @@
   }
   
   .severance-button {
-    @apply relative overflow-hidden px-8 py-3 rounded-none border border-lumon-blue bg-transparent text-foreground font-mono uppercase tracking-widest transition-all duration-300;
+    @apply relative overflow-hidden px-8 py-3 rounded-none border border-lumon-blue bg-transparent  font-mono uppercase tracking-widest transition-all duration-300;
   }
   
   .severance-button::before {
