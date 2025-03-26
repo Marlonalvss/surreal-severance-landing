@@ -8,7 +8,7 @@ import DylanGInnie from '@/images/DylanGInnie.jpg';
 import IrvingBInnie from '@/images/IrvingBInnie.jpg';
 
 import MarkSOutie from '@/images/MarkSOutie.jpg';
-import HellyROutie from '@/images/HellyROutie.jpg';
+import HellyROutie from '@/images/HellyROutie.png';
 import DylanGOutie from '@/images/DylanGOutie.jpg';
 import IrvingBOutie from '@/images/IrvingBOutie.jpg';
 
