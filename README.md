@@ -1,69 +1,83 @@
-# Welcome to your Lovable project
 
-## Project info
+# 🔲 Severance Landing Page
 
-**URL**: https://lovable.dev/projects/4c6b31f5-9409-4d9e-8cb9-47183c24918b
+![Preview da Landing Page](https://github.com/your-username/severance-landing/raw/main/public/preview.png)
 
-## How can I edit this code?
+## 🧠 Sobre o Projeto
 
-There are several ways of editing your application.
+Este projeto é uma landing page baseada na série **Severance** (Ruptura), explorando a estética surrealista, minimalista e corporativa da Lumon Industries. A página apresenta seções sobre a série, personagens, episódios e onde assistir, tudo em um design que reflete a dualidade e a atmosfera enigmática do show.
 
-**Use Lovable**
+### 📺 Sobre Severance (Ruptura)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4c6b31f5-9409-4d9e-8cb9-47183c24918b) and start prompting.
+**Severance** (Ruptura) é uma série de ficção científica e thriller psicológico que explora um futuro distópico onde funcionários da misteriosa Lumon Industries passam por um procedimento chamado "severance" (ruptura). Este procedimento separa cirurgicamente suas memórias de trabalho das memórias pessoais, criando essencialmente duas versões de si mesmos:
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Innie**: A pessoa que existe apenas no trabalho, sem memórias da vida externa
+- **Outie**: A pessoa fora do trabalho, que não tem ideia do que faz durante o horário comercial
 
-**Use your preferred IDE**
+A série explora temas de identidade, ética corporativa, livre-arbítrio e a natureza do trabalho moderno de maneira visualmente impressionante e narrativamente complexa.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Tecnologias Utilizadas
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Este projeto foi construído utilizando tecnologias modernas de desenvolvimento web:
 
-Follow these steps:
+- ⚛️ **React** - Biblioteca JavaScript para construção de interfaces
+- 🏎️ **Vite** - Build tool e servidor de desenvolvimento ultrarrápido
+- 📝 **TypeScript** - Superset JavaScript com tipagem estática
+- 🎨 **Tailwind CSS** - Framework CSS utilitário
+- 🧩 **Shadcn UI** - Componentes React reutilizáveis e acessíveis
+- 🔄 **Swiper** - Biblioteca para implementação de sliders e carrosséis
+
+## 🤖 Desenvolvimento com Lovable
+
+Este projeto foi desenvolvido com a assistência de [Lovable](https://lovable.dev), um editor de código baseado em IA que ajudou na criação e implementação dos componentes React, estilização com Tailwind CSS e lógica interativa.
+
+## 🎯 Propósito
+
+Esta landing page foi criada com fins educacionais e para portfólio, servindo como:
+
+- 📚 Estudo de caso para implementação de design minimalista e surrealista
+- 💼 Demonstração de habilidades de desenvolvimento front-end
+- 🧪 Experimentação com animações e interações baseadas na estética da série
+- 🔄 Prática de desenvolvimento com assistência de IA
+
+## 🚀 Como Executar
+
+Siga os passos abaixo para executar o projeto localmente:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Clone o repositório
+git clone https://github.com/seu-usuario/severance-landing.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navegue até a pasta do projeto
+cd severance-landing
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Instale as dependências
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Execute o servidor de desenvolvimento
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 🤝 Contribuindo
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Contribuições são bem-vindas! Se você quiser melhorar esta landing page:
 
-**Use GitHub Codespaces**
+1. 🍴 Faça um fork do projeto
+2. 🔄 Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
+3. 💾 Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
+4. 📤 Push para a branch (`git push origin feature/nova-feature`)
+5. 📩 Abra um Pull Request
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📝 Licença
 
-## What technologies are used for this project?
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-This project is built with .
+## 🙏 Agradecimentos
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- Criadores da série Severance por inspirarem este projeto
+- Lovable pela assistência no desenvolvimento
+- Comunidade de desenvolvimento React e Tailwind CSS pelos recursos e documentação
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/4c6b31f5-9409-4d9e-8cb9-47183c24918b) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+⚠️ **Aviso**: Este é um projeto não oficial e não tem qualquer associação com a Apple TV+ ou os criadores de Severance. Foi criado apenas para fins educacionais e como exercício de desenvolvimento.
