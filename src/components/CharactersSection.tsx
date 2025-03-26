@@ -2,7 +2,15 @@
 import { useState, useRef, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 
+import MarkSInnie from '@/images/MarkSInnie.jpg';
+import HellyRInnie from '@/images/HellyRInnie.jpg';
+import DylanGInnie from '@/images/DylanGInnie.jpg';
+import IrvingBInnie from '@/images/IrvingBInnie.jpg';
+
 import MarkSOutie from '@/images/MarkSOutie.jpg';
+import HellyROutie from '@/images/HellyROutie.jpg';
+import DylanGOutie from '@/images/DylanGOutie.jpg';
+import IrvingBOutie from '@/images/IrvingBOutie.jpg';
 
 // Mock character data
 const characters = [
@@ -12,7 +20,7 @@ const characters = [
     actor: 'Adam Scott',
     innieSummary: 'Líder do departamento MDR que segue diligentemente as regras da Lumon, sem questionar seu propósito.',
     outieSummary: 'Viúvo que escolheu o procedimento para escapar da dor do luto pela perda de sua esposa.',
-    innieImage: './src/images/MarkSInnie.jpg',
+    innieImage: MarkSInnie,
     outieImage: MarkSOutie,
   },
   {
@@ -21,8 +29,8 @@ const characters = [
     actor: 'Britt Lower',
     innieSummary: 'Nova funcionária do MDR que se rebela contra o sistema, determinada a escapar.',
     outieSummary: 'Helena Eagan, filha do CEO da Lumon, submeteu-se ao procedimento voluntariamente para promoção.',
-    innieImage: './src/images/HellyRInnie.jpg',
-    outieImage: './src/images/HellyROutie.png',
+    innieImage: HellyRInnie,
+    outieImage: HellyROutie,
   },
   {
     id: 3,
@@ -30,8 +38,8 @@ const characters = [
     actor: 'Zach Cherry',
     innieSummary: 'Colega sarcástico de Mark, fascinado por recompensas corporativas e perks da empresa.',
     outieSummary: 'Pai dedicado que descobre sua realidade exterior e utiliza o conhecimento para ajudar os colegas.',
-    innieImage: './src/images/DylanGInnie.jpg',
-    outieImage: '/src/images/DylanGOutie.jpg',
+    innieImage: DylanGInnie,
+    outieImage: DylanGOutie,
   },
   {
     id: 4,
@@ -39,8 +47,8 @@ const characters = [
     actor: 'John Turturro',
     innieSummary: 'Veterano da Lumon, fanático pelo código de conduta que começa a ter visões inquietantes.',
     outieSummary: 'Ex-militar, pesquisa obsessivamente a Lumon e coleciona evidências sobre a empresa.',
-    innieImage: './src/images/IrvingBInnie.jpg',
-    outieImage: './src/images/IrvingBOutie.jpg',
+    innieImage: IrvingBInnie,
+    outieImage: IrvingBOutie,
   },
 ];
 
