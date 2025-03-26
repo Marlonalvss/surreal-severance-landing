@@ -42,7 +42,7 @@ const timelineEvents = [
   {
     id: 6,
     title: "Episódio 6 - Esconder e Procurar",
-    description: "A equipe MDR se diverte em uma sessão de "esconder e procurar", e Mark descobre algo perturbador em sua vida exterior.",
+    description: 'A equipe MDR se diverte em uma sessão de "esconder e procurar", e Mark descobre algo perturbador em sua vida exterior.',
     date: "Temporada 1",
     important: false
   },
@@ -56,14 +56,14 @@ const timelineEvents = [
   {
     id: 8,
     title: "Episódio 8 - O que está para acontecer",
-    description: "Helly faz uma descoberta impactante sobre sua identidade exterior, enquanto os "innies" planejam ativar o "Código de Contingência".",
+    description: 'Helly faz uma descoberta impactante sobre sua identidade exterior, enquanto os "innies" planejam ativar o "Código de Contingência".',
     date: "Temporada 1",
     important: false
   },
   {
     id: 9,
     title: "Episódio 9 - O Loop",
-    description: "No final da temporada, os "innies" despertam no mundo exterior pela primeira vez, revelando verdades chocantes sobre suas vidas.",
+    description: 'No final da temporada, os "innies" despertam no mundo exterior pela primeira vez, revelando verdades chocantes sobre suas vidas.',
     date: "Temporada 1",
     important: true
   },
