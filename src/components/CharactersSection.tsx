@@ -29,7 +29,7 @@ const characters = [
     innieSummary: 'Colega sarcástico de Mark, fascinado por recompensas corporativas e perks da empresa.',
     outieSummary: 'Pai dedicado que descobre sua realidade exterior e utiliza o conhecimento para ajudar os colegas.',
     innieImage: './src/images/DylanGInnie.jpg',
-    outieImage: './src/images/DylanGOutie.jpg',
+    outieImage: '/src/images/DylanGOutie.jpg',
   },
   {
     id: 4,
