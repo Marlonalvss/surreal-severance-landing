@@ -62,7 +62,7 @@ const Footer = () => {
         
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-lumon-light/40 text-xs mb-4 md:mb-0">
-            © 2025 Criado por Marlon Alves para Estudos.
+            © 2025 Criado por Marlon Alves com o Lovable para Estudos.
           </p>
           
           <div className="flex space-x-6">
