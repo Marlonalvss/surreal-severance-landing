@@ -14,7 +14,7 @@ const galleryItems = [
     id: 1,
     type: 'image',
     url: 'https://external-preview.redd.it/the-lumon-building-is-way-bigger-than-it-looks-spoilers-v0-hdcpUEsuVCj2SFVaJR_lQAl3XsA4pVQIGe8etVqhReo.jpg?auto=webp&s=2792d2bf0093e9a1f4538a8e4187e05b1f157041',
-    alt: 'Cena de escritório da Lumon',
+    alt: 'Ecritório da Lumon',
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const galleryItems = [
     id: 3,
     type: 'image',
     url: 'https://hips.hearstapps.com/hmg-prod/images/severance-kitchen-67d43f8b517e2.jpg',
-    alt: 'Sala de descanso',
+    alt: 'Cozinha do departamento MDR',
   },
   {
     id: 4,
@@ -80,9 +80,6 @@ const GallerySection = () => {
                   <div className="absolute bottom-0 left-0 right-0 p-6 z-20">
                     <div className="flex items-center justify-between">
                       <div>
-                        <span className="font-mono text-lumon-blue/80 text-xs tracking-wider block mb-1">
-                          TEMPORADA {item.season} • EPISÓDIO {item.episode}
-                        </span>
                         <p className="text-lumon-light text-lg">{item.alt}</p>
                       </div>
                       <div className="font-mono text-lumon-light/50 text-xs">
