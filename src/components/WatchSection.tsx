@@ -116,18 +116,12 @@ const WatchSection = () => {
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a 
-              href="#" 
+              rel="noopener noreferrer"
+              href="https://youtu.be/_UXKlYvLGJY?si=SYybxeUvfCdVVbQH" 
               className="severance-button group"
             >
               Assista ao Trailer
               <span className="ml-2 inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
-            </a>
-            
-            <a 
-              href="#" 
-              className="text-lumon-light/70 hover:text-lumon-light font-mono text-sm tracking-wider underline-offset-4 hover:underline transition-colors duration-200"
-            >
-              Veja o teaser da segunda temporada
             </a>
           </div>
         </div>
