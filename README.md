@@ -1,7 +1,7 @@
 
 # 🔲 Severance Landing Page
 
-![Preview da Landing Page](https://github.com/your-username/severance-landing/raw/main/public/preview.png)
+![Preview da Landing Page](./src/images/landingPage.png)
 
 ## 🧠 Sobre o Projeto
 
