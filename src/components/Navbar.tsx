@@ -1,10 +1,10 @@
-
 import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 import { Separator } from '@/components/ui/separator';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false); 
   
   useEffect(() => {
     const handleScroll = () => {
@@ -52,7 +52,11 @@ const Navbar = () => {
           </ul>
         </nav>
         
-        <button className="md:hidden text-lumon-light">
+       
+        <button 
+          className="md:hidden text-lumon-light"
+          onClick={() => setMenuOpen(!menuOpen)} 
+        >
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <line x1="3" y1="12" x2="21" y2="12"></line>
             <line x1="3" y1="6" x2="21" y2="6"></line>
@@ -60,6 +64,25 @@ const Navbar = () => {
           </svg>
         </button>
       </div>
+
+      
+      {menuOpen && (
+        <div className="md:hidden">
+          <ul className="flex flex-col space-y-4 mt-4">
+            {['Sobre', 'Galeria', 'Personagens', 'Cronologia', 'Assistir'].map((item) => (
+              <li key={item}>
+                <a 
+                  href={`#${item.toLowerCase()}`}
+                  rel="noopener noreferrer"
+                  className="text-lumon-light/80 hover:text-lumon-light text-sm font-mono tracking-wide transition-colors duration-200"
+                >
+                  {item}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </header>
   );
 };
