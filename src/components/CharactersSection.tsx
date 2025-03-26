@@ -2,6 +2,8 @@
 import { useState, useRef, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 
+import MarkSOutie from '@/images/MarkSOutie.jpg';
+
 // Mock character data
 const characters = [
   {
@@ -11,7 +13,7 @@ const characters = [
     innieSummary: 'Líder do departamento MDR que segue diligentemente as regras da Lumon, sem questionar seu propósito.',
     outieSummary: 'Viúvo que escolheu o procedimento para escapar da dor do luto pela perda de sua esposa.',
     innieImage: './src/images/MarkSInnie.jpg',
-    outieImage: './src/images/MarkSOutie.jpg',
+    outieImage: MarkSOutie,
   },
   {
     id: 2,
